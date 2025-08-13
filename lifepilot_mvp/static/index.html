@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LifePilot AI — Daily Briefing</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>LifePilot AI — Daily Briefing</h1>
+    <form id="briefing-form">
+      <textarea id="payload" rows="15">{
+  "date": "2025-08-13",
+  "timezone": "Europe/London",
+  "prefs": {"focus_block_minutes": 90, "tone": "friendly"},
+  "events": [],
+  "todos": []
+}</textarea>
+      <button type="submit">Generate Briefing</button>
+    </form>
+    <pre id="output"></pre>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
